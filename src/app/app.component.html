@@ -1,0 +1,66 @@
+<!-- <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Free Mart</a>
+    </div>
+    <form class="navbar-form navbar-left">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">   
+            <i class="glyphicon glyphicon-search"></i>  
+          </button>
+        </div>
+      </div>
+    </form>
+    <ul class="nav navbar-nav">            
+      <li class="active"><a href="#" routerLink='/mart'>Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+      <li><a href="#" routerLink='/signup'><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav> -->
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-leaf"></i>FREE MART</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+    <ul class="nav navbar-nav navbar-right bg-black"> 
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" routerLink='/mart'><span class="glyphicon glyphicon-home"></span>Home</a>
+          </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLink='/cart'><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item active">
+          <input type="text" placeholder="Search">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+          </li>  
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span>Login</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" routerLink='/logout'><span class="glyphicon glyphicon-log-in"></span>Logout</a>
+        </li>
+       
+  </ul>
+</ul>
+</nav>
+ 
+   <router-outlet></router-outlet>
+  
